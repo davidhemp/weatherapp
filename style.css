@@ -20,6 +20,7 @@ body{
     height: 105px;
     background: #fff;
     padding: 28px 32px;
+    overflow: hidden;
     border-radius: 18px;
     font-family: 'Roboto', sans-serif;
     transition: 0.6s ease-out;
@@ -38,18 +39,18 @@ body{
     width: 80%;
     font-size: 24px;
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding-left: 32px;
 }
 
 .search-box input.placeholder{
-    font-size: 20px ;
+    font-size: 18px ;
     font-weight: 500;
     color: #06283D;
     text-transform: capitalize;
 }
 
-.search-box button {
+.search-box button{
     cursor: pointer;
     width: 50px;
     height: 50px;
@@ -71,3 +72,6 @@ body{
     font-size: 28px;
 }
 
+.weather-box{
+    text-align: center;
+}
