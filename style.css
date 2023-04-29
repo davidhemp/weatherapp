@@ -129,7 +129,7 @@ body{
     opacity: 0;
 }
 
-.weather-details .humidity .weather-details . wind{
+.weather-details .humidity .weather-details .wind{
     display: flex;
     align-items: center;
     width: 50%;
