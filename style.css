@@ -85,8 +85,6 @@ body{
     width: 100%;
     text-align: center;
     margin-top: 5%;
-    scale: 0;
-    opacity: 0;
     display: none;
 }
 .not-found img{
@@ -125,8 +123,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    scale: 0;
-    opacity: 0;
+
 }
 
 .weather-details .humidity .weather-details .wind{
